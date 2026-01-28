@@ -1,0 +1,417 @@
+/*  Start Globel style */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+
+    padding: 60px 0;
+    overflow: hidden;
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #BD8C54;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.clear_float {
+    clear: both;
+}
+
+/* End Globel style */
+
+
+
+
+/*  Start Nav style */
+
+nav {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+}
+
+nav ul {
+    margin-top: 10px;
+}
+
+nav figure {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.nav-links {
+    float: right;
+    padding: 0 auto;
+}
+
+nav figure img {
+
+    width: 40%;
+    height: 100%;
+}
+
+nav li {
+    padding: 10px;
+}
+
+
+
+/*  End Nav style */
+
+/*  Start home_section style */
+.home {
+    background-image: url("../image/home.jpg");
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.home header {
+    width: 40%;
+    margin: 300px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.home header h5 {
+    text-align: center;
+    font-size: 22px;
+    color: rgba(255, 255, 255, .92);
+}
+
+.home header h2 {
+    text-align: center;
+    font-size: 60px;
+    color: rgba(255, 255, 255, .92);
+    margin: 10px;
+}
+
+.home header p {
+    text-align: center;
+    font-size: 24px;
+    margin: 15px;
+    color: rgba(255, 255, 255, .92);
+}
+
+.home header button {
+    border: 2px solid transparent;
+    padding: 15px 25px;
+    margin-left: 15%;
+    color: rgba(255, 255, 255, .92);
+    border-radius: 4px;
+    z-index: 2;
+    background-color: #8e7754;
+}
+
+.home header .button2 {
+    background-color: transparent;
+    border-color: white;
+}
+
+.home .layer {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.219);
+    position: absolute;
+    z-index: 1;
+}
+
+/*  End home_section style */
+
+/*  Start who_section style */
+.who figure {
+    width: 48%;
+    height: 100%;
+    float: left;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.who_detail {
+    padding: 40px;
+    width: 49%;
+    float: right;
+    font-size: 17px;
+    color: #686868;
+}
+
+.who_detail li {
+    display: block;
+}
+
+.who_detail li i {
+    width: 49px;
+    border-radius: 50%;
+    top: 6px;
+    color: #8e7754;
+}
+
+.who_detail p {
+    margin: 30px 0;
+}
+
+/*  End who_section style */
+
+/*  Start location_section style */
+.location {
+    height: 80vh;
+    background: #f8f8f8;
+
+}
+
+.location-detail {
+    width: 35%;
+    float: left;
+
+}
+
+.location-detail h4 {
+    font-size: 32px;
+    color: #303030;
+}
+
+.location-detail p {
+    line-height: 30px;
+    margin: 30px 0;
+    font-size: 17px;
+    color: #686868;
+}
+
+.location figure {
+    width: 45%;
+    float: right;
+
+
+
+}
+
+/*  End location_section style */
+
+/*  Start Baking_section style */
+.imgs {
+    float: left;
+    width: 33%;
+    padding: 20px;
+    text-align: center;
+}
+
+.Baking h6 {
+    font-size: 22px;
+    color: #555555;
+    text-align: center;
+}
+
+.Baking p {
+    font-size: 17px;
+    color: #888;
+    text-align: center;
+    margin: 15px;
+}
+
+.imgs h4 {
+    color: #303030;
+    font-size: 22px;
+}
+
+.imgs p {
+    color: #686868;
+    font-size: 17px;
+}
+
+/*  End Baking_section style */
+
+
+/*  Start map_section style */
+.google_maps {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+
+.contact-info {
+    width: 51%;
+    float: left;
+}
+
+.contact-info .title {
+    font-size: 32px;
+    color: #303030;
+
+}
+
+.contact-info .par {
+    font-size: 17px;
+    color: #686868;
+    margin: 15px;
+
+}
+
+.contact-info li {
+    color: #686868;
+    display: block;
+    padding: 0%;
+
+}
+
+.google_maps iframe {
+    width: 48%;
+    float: right;
+}
+
+/*  END map_section style */
+
+/*  Start About_section style */
+.About {
+    background-color: #403d38;
+    color: #969696;
+
+}
+
+
+
+.about-list {
+    float: left;
+    width: 24%;
+    text-align: center;
+
+}
+
+.about-list li {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    padding-top: 0%;
+}
+
+.about-list p {
+    margin: 40px;
+    line-height: 180%;
+    margin-bottom: 20px;
+}
+
+/*  End About_section style */
+
+/*  Start Footer style */
+.footer {
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer img {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #777;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 6px;
+    border-radius: 50%;
+    background: #2B2B2B;
+    color: #ccc;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.social-icons a:nth-child(1):hover {
+    background: #1877F2;
+    color: white;
+}
+
+.social-icons a:nth-child(2):hover {
+    background: #DB4437;
+    color: white;
+}
+
+/* LinkedIn */
+.social-icons a:nth-child(3):hover {
+    background: #0077B5;
+    color: white;
+}
+
+/* Twitter */
+.social-icons a:nth-child(4):hover {
+    background: #1DA1F2;
+    color: white;
+}
+
+/*  Start side_section style */
+
+.side {
+    position: fixed;
+    right: 0px;
+    padding: 5px;
+    color: #666;
+    background-color: white;
+    top: 140px;
+    border-radius: 8px 0 0 8px;
+}
+
+.side li {
+    display: block;
+    margin: 10px 0;
+}
+
+.side li:hover {
+    color: rgb(7, 75, 223);
+    transition: 0.10s;
+}
+
+/*  End side_section style */
+
+html {
+    scroll-behavior: smooth;
+}
+/* Responsive and dark mode */
+@media screen and (min-width: 400px) and (max-width: 1200px){
+.container{
+    width:auto;
+}
+    .who,.Baking{
+        background-color: #1877F2;
+        color: white;
+    }
+    .nav,.home,.location,.google_maps{
+       background-color: black;
+       color: white;
+       
+    }
+nav figure,.who figure,.home,.home header ,.who_detail,.location-detail,.location figure,.imgs,.contact-info,.google_maps iframe,.about-list{
+       float: none;
+       width: 100%;
+     
+}
+
+}
